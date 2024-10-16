@@ -5,6 +5,7 @@ import com.example.sistema_cursos.repository.ActivityResultRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
@@ -28,6 +29,13 @@ public class ActivityResultService {
 
     public void deleteResult(Long id) {
         activityResultRepository.deleteById(id);
+    }
+
+    public Collection<Object> getAllActivityResults() {
+        return List.of();
+    }
+
+    public void saveActivityResult(ActivityResult result1) {
     }
 }
 

@@ -16,6 +16,13 @@ public class Video {
     @JoinColumn(name = "course_id")
     private Course course;
 
+    public Video(Object o, String videoDeJava, String s, String s1, long l) {
+    }
+
+    public Video() {
+
+    }
+
     // Getters e Setters
 
     public Long getId() {

@@ -16,6 +16,13 @@ public class Activity {
     @JoinColumn(name = "course_id")
     private Course course;
 
+    public Activity(Object o, String s, String s1, long l, String s2) {
+    }
+
+    public Activity() {
+
+    }
+
     // Getters e Setters
 }
 

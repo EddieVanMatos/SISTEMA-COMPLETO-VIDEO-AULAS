@@ -16,6 +16,13 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<ActivityResult> resultados;
 
+    public User(Object o, String joão, String mail) {
+    }
+
+    public User() {
+
+    }
+
     // Getters e Setters
 }
 

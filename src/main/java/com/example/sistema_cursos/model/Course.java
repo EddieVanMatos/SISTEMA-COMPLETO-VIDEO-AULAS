@@ -19,6 +19,13 @@ public class Course {
     @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Activity> activities;
 
+    public Course(Object o, String cursoDeJava, String descriçãoDoCursoDeJava) {
+    }
+
+    public Course() {
+
+    }
+
     // Getters e Setters
 }
 

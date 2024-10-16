@@ -22,6 +22,13 @@ public class ActivityResult {
     @JoinColumn(name = "user_id")
     private User user;
 
+    public ActivityResult(Object o, double v, String respostaCorreta, long l, long l1) {
+    }
+
+    public ActivityResult() {
+
+    }
+
     // Getters e Setters
 
     public Long getId() {
